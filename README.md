@@ -13,7 +13,6 @@ This is a simple TODO application built using React.
 ## Usage
 
 To Start the application: On terminal run the command- npm run start
-2. Open the application in your web browser.
 
 ## Contribution
 
