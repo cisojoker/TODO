@@ -1,0 +1,109 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.notesh1 {
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 6px;
+  margin-left: 5px;
+}
+.delbtn {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  word-spacing: 2px;
+}
+.notesp {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.btn-circle {
+  width: 50px;
+  height: 40px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  position: relative;
+  margin-left: 50%;
+  left: 75%;
+  top: 20px;
+  position: sticky;
+  text-align: center;
+  font-size: 20px;
+  line-height: 0.81515151;
+}
+.header {
+  font-family: "McLaren", cursive;
+  color: rgb(20, 216, 92);
+  padding: 0;
+  width: auto;
+}
+.footer {
+  font-family: "McLaren", cursive;
+  color: rgb(20, 216, 92);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  height: 50px; /* Height of the footer */
+  padding-left: 10px;
+}
+.border {
+  color: white;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px rgb(86, 255, 1);
+  width: 220px;
+  margin: 16px;
+  float: left;
+  background-color: rgba(133, 109, 109, 0.405);
+}
+body {
+  background-image: linear-gradient(270deg, rgb(131, 50, 50), rgb(30, 30, 100));
+}
+.field-group {
+  position: relative;
+  padding-top: 15px;
+}
+.input-field {
+  width: 50%;
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid #999999;
+  padding: 10px 0;
+  background: transparent;
+  font-size: 1.5em;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+.input-label {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  font-size: 1em;
+  color: #999999;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+.input-field::placeholder {
+  color: transparent;
+}
+.input-field:placeholder-shown ~ .input-label {
+  font-size: 1em;
+  top: 20px;
+}
+.input-field:focus {
+  border-image: linear-gradient(to right, rgb(86, 255, 1), rgb(125, 230, 242));
+  border-image-slice: 1;
+}
+.input-field:focus ~ .input-label {
+  display: block;
+  position: absolute;
+  font-size: 1em;
+  top: 0;
+  color: orangered;
+}
