@@ -12,7 +12,9 @@ This is a simple TODO application built using React.
 
 ## Usage
 
-To Start the application: On terminal run the command- npm run start
+To Start the application: (SETUP THE VSCODE FOR REACT ENVIRONMENT)
+Open all the file in VS CODE
+Now on VS terminal run the command- npm run start
 
 ## Contribution
 
